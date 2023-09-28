@@ -381,8 +381,8 @@ gap:4px;
 .horizontalcard2_text
 {
 background-color:#c1d0f8;
-height:17px;
-width:690px;
+height:25px;
+width:506px;/*690px;*/
 border-radius:16px;
 padding:16px;
 display:flex;
@@ -396,7 +396,267 @@ border-style:hidden;
 outline:none;
 top:228px;
 left:690px;
+color:#8f9098;
+text-align:left;
+vertical-align:text-top;
+font-size:20px;
+font-family:Inter;
+line-height:auto;
+border-style:hidden;
+outline:none;
 }
+
+.label
+{
+  background-color: transparent;
+  height:17px;
+  width:690px;
+  border-radius:16px;
+  padding:16px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  align-items:center;
+  gap:16px;
+  position:absolute;
+  border-style:hidden;
+  outline:none;
+  top:235px;
+  left:540px;
+  text-align:left;
+  vertical-align:text-top;
+  font-size:20px;
+  font-family:Inter;
+  line-height:auto;
+  border-style:hidden;
+  outline:none;
+  width:79px;
+  }
+
+  .horizontalcard_correo
+  {
+  background-color:#c1d0f8;
+  height:25px;
+  width:506px;/*690px;*/
+  border-radius:16px;
+  padding:16px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  align-items:center;
+  gap:16px;
+  position:absolute;
+  border-style:hidden;
+  outline:none;
+  top:298px;
+  left:690px;
+  color:#8f9098;
+  text-align:left;
+  vertical-align:text-top;
+  font-size:20px;
+  font-family:Inter;
+  line-height:auto;
+  border-style:hidden;
+  outline:none;
+  }
+
+  .lbEmail
+{
+  background-color: transparent;
+  height:17px;
+  width:690px;
+  border-radius:16px;
+  padding:16px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  align-items:center;
+  gap:16px;
+  position:absolute;
+  border-style:hidden;
+  outline:none;
+  top:305px;
+  left:540px;
+  text-align:left;
+  vertical-align:text-top;
+  font-size:20px;
+  font-family:Inter;
+  line-height:auto;
+  border-style:hidden;
+  outline:none;
+  width:79px;
+  }
+
+  .horizontalcard_UserName
+  {
+  background-color:#c1d0f8;
+  height:25px;
+  width:506px;/*690px;*/
+  border-radius:16px;
+  padding:16px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  align-items:center;
+  gap:16px;
+  position:absolute;
+  border-style:hidden;
+  outline:none;
+  top:368px;
+  left:690px;
+  color:#8f9098;
+  text-align:left;
+  vertical-align:text-top;
+  font-size:20px;
+  font-family:Inter;
+  line-height:auto;
+  border-style:hidden;
+  outline:none;
+  }
+
+  .lbUserName
+{
+  background-color: transparent;
+  height:17px;
+  width:690px;
+  border-radius:16px;
+  padding:16px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  align-items:center;
+  gap:16px;
+  position:absolute;
+  border-style:hidden;
+  outline:none;
+  top:375px;
+  left:540px;
+  text-align:left;
+  vertical-align:text-top;
+  font-size:20px;
+  font-family:Inter;
+  line-height:auto;
+  border-style:hidden;
+  outline:none;
+  width:79px;
+  }
+
+  .horizontalcard_Password
+  {
+  background-color:#c1d0f8;
+  height:25px;
+  width:506px;/*690px;*/
+  border-radius:16px;
+  padding:16px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  align-items:center;
+  gap:16px;
+  position:absolute;
+  border-style:hidden;
+  outline:none;
+  top:438px;
+  left:690px;
+  color:#8f9098;
+  text-align:left;
+  vertical-align:text-top;
+  font-size:20px;
+  font-family:Inter;
+  line-height:auto;
+  border-style:hidden;
+  outline:none;
+  }
+
+  .lbPassword
+{
+  background-color: transparent;
+  height:17px;
+  width:690px;
+  border-radius:16px;
+  padding:16px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  align-items:center;
+  gap:16px;
+  position:absolute;
+  border-style:hidden;
+  outline:none;
+  top:445px;
+  left:540px;
+  text-align:left;
+  vertical-align:text-top;
+  font-size:20px;
+  font-family:Inter;
+  line-height:auto;
+  border-style:hidden;
+  outline:none;
+  width:79px;
+  }
+
+  .horizontalcard_Date
+  {
+  background-color:#c1d0f8;
+  height:25px;
+  width:506px;/*690px;*/
+  border-radius:16px;
+  padding:16px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  align-items:center;
+  gap:16px;
+  position:absolute;
+  border-style:hidden;
+  outline:none;
+  top:508px;
+  left:690px;
+  color:#8f9098;
+  text-align:left;
+  vertical-align:text-top;
+  font-size:20px;
+  font-family:Inter;
+  line-height:auto;
+  border-style:hidden;
+  outline:none;
+  }
+
+  .lbDate
+{
+  background-color: transparent;
+  height:17px;
+  width:690px;
+  border-radius:16px;
+  padding:16px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  align-items:center;
+  gap:16px;
+  position:absolute;
+  border-style:hidden;
+  outline:none;
+  top:515px;
+  left:540px;
+  text-align:left;
+  vertical-align:text-top;
+  font-size:20px;
+  font-family:Inter;
+  line-height:auto;
+  border-style:hidden;
+  outline:none;
+  width:147px;
+  }
 
 
 
