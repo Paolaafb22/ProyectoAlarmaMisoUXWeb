@@ -105,7 +105,7 @@ left:500px;/*482px;*/
 top:179px;
 }
 .rectangle1
-{
+{/*
   width: 100%;
   height: 148px;
   background: rgba(0,111,253,1);
@@ -114,14 +114,13 @@ top:179px;
   top: 0px;
   left: 0px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-  /*background-color:#006ffd;
-  height:148px;
-  width:1366px;
-  position: relative;
-  top: 0px;
-  left: 0px;
   overflow: hidden;*/
+  background-color:#006ffd;
+height:148px;
+width:1500px;
+filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+border:1px solid #006ffd;
+
 }
 
 .v330_568 {
@@ -135,8 +134,6 @@ top:179px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
-
-
 
 .eatalarm
 {
@@ -157,8 +154,8 @@ outline:none;
 .horizontalcard2
 {
 background-color:#c1d0f8;
-height:72px;
-width:970px;
+height:65px;
+width:850px;
 border-radius:16px;
 padding:16px;
 display:flex;
@@ -196,7 +193,7 @@ font-family:Inter;
 line-height:auto;
 border-style:hidden;
 outline:none;
-width:712px;
+width:600px;
 }
 .edit
 {
@@ -231,7 +228,7 @@ width:30px;
 padding:0px;
 border-style:none;
 outline:none;
-left:1400px;
+left:1300px;
 top:255px;
 position:absolute;
 background-color: transparent;
@@ -244,7 +241,7 @@ cursor: pointer;
     padding: 0;
     border: none;
     outline: none;
-    left: 1350px;
+    left: 1250px;
     top: 255px;
     position: absolute;
     background-color: transparent;
@@ -658,6 +655,19 @@ outline:none;
   width:147px;
   }
 
+  .butonback
+{
+  height:27px;
+  width:30px;
+  padding:0px;
+  border-style:none;
+  outline:none;
+  left:90px;
+  top:60px;
+  position:absolute;
+  background-color: transparent;
+  cursor: pointer;
+}
 
 
 
