@@ -2,7 +2,7 @@
 <html>
 <head>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet" />
-    <link href="./css/adm_alarm.css" rel="stylesheet" />
+    <link href="./css/adm_objetivos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <title> eat Alarm</title>
 </head>
@@ -12,101 +12,25 @@
 
     <div id='horizontalcard' class='horizontalcard'> 
     </div>
-    <label for="lbName" class='label'>Nombre Alarma:</label>
-    <div id='name_txt' class='horizontalcard2_text' contenteditable="true">Desayuno</div>
+    <div id='name_txt' class='horizontalcard2_text' contenteditable="true">Incluir fruta en el desayuno y los Snack de la mañana</div>
 
-    <!--<label for="lbCorreo" class='lbEmail'>Fecha:</label>
-    <div id='Correo_txt' class='horizontalcard_correo'>2023/09/29</div>-->
 
-    <label for="lbCorreo" class='lbEmail'>Fecha:</label>
-    <div id='Correo_txt' class='horizontalcard_correo'>
-        <input type="text" id="fecha_input" style="height: 25px; width: 100%;" readonly>
-    </div>
-
-    <label for="lbUserName" class='lbUserName'>Cantidad de comidas:</label>
-    <div id='UserName' class='horizontalcard_UserName'>
-        <select id="QtyComidas_selector" style="height: 25px; width: 506px;">
-            <!-- Agregamos opciones del 1 al 8 usando JavaScript -->
-        </select>
-    </div>
-
-    <label for="lbPassword" class='lbPassword'>Hora de la primera comida:</label>
-    <div id='Password' class='horizontalcard_Password'>
-        <select id="horario_selector" style="height: 25px; width: 506px;">
-            <!-- Agregamos opciones del 00:00 al 23:59 usando JavaScript -->
-        </select>
-    </div>
-
-    <label for="lbDate" class='lbDate'>¿Cuántas veces al día vas a comer?:</label>
-    <div id='Date' class='horizontalcard_Date'>
-        <select id="comidas_selector" style="height: 25px; width: 506px;">
-            <!-- Agregamos opciones del 1 al 10 usando JavaScript -->
-        </select>
-    </div>
-
-    <button type="button" id='buttonAccep' onclick="window.location.href='adm_alarm.html'" class='buttonAccep'>
+    <button type="button" id='buttonAccep' onclick="window.location.href='adm_objetivos.html'" class='buttonAccep'>
         Aceptar
     </button>
 
-    <button type="button" id='buttonCancel' onclick="window.location.href='adm_alarm.html'" class='buttonCancel'>
+    <button type="button" id='buttonCancel' onclick="window.location.href='adm_objetivos.html'" class='buttonCancel'>
         Cancelar
     </button>
 
     <div id='horizontalcard3' class='horizontalcard3'></div>
     <button type="button" id='buttonprimary' class='btn_consultar'>
-        Modificar Alarma 
+        Modificar objetivo 
     </button>
 
-    <button type="button" id='buttonBack' onclick="window.location.href='adm_alarm.html'" class='butonback'>
+    <button type="button" id='buttonBack' onclick="window.location.href='adm_objetivos.html'" class='butonback'>
         <img src="images/LeftBackButton.png" alt="delete">
     </button>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
-    $(document).ready(function() {
-            // Habilitar el datepicker en el campo de fecha
-            $("#fecha_input").datepicker();
-        });
-        // JavaScript para llenar el combo box con números del 1 al 10
-        var comidasSelector = document.getElementById("comidas_selector");
-
-        for (var i = 1; i <= 10; i++) {
-            var option = document.createElement("option");
-            option.text = i;
-            option.value = i;
-            comidasSelector.add(option);
-        }
-
-        var horarioSelector = document.getElementById("horario_selector");
-
-        for (var i = 0.00; i <= 23.59; i++) {
-            var option = document.createElement("option");
-            option.text = i;
-            option.value = i;
-            horarioSelector.add(option);
-        }
-
-        var QtySelector = document.getElementById("QtyComidas_selector");
-
-        for (var i = 1; i <= 8; i++) {
-            var option = document.createElement("option");
-            option.text = i;
-            option.value = i;
-            QtySelector.add(option);
-        }
-
-        var fechaInput = document.getElementById("fecha_input");
-        // Agregar un evento de cambio al combo box para actualizar la fecha
-        comidasSelector.addEventListener("change", function () {
-            var selectedDate = new Date(); // Crear una nueva fecha
-            var selectedDay = selectedDate.getDate(); // Obtener el día actual
-            var selectedMonth = selectedDate.getMonth() + 1; // Obtener el mes actual (se suma 1 porque los meses se indexan desde 0)
-            var selectedYear = selectedDate.getFullYear(); // Obtener el año actual
-
-            // Actualizar la fecha seleccionada en el campo de texto
-            fechaInput.value = selectedYear + "/" + selectedMonth + "/" + selectedDay;
-        });
-    </script>
+    
 </body>
 </html>
