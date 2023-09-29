@@ -14,8 +14,7 @@ Este proyecto tiene como objetivo crear una interfaz de usuario atractiva y func
 
 ## Capturas de Pantalla
 
-![Captura de Pantalla 1](screenshots/screenshot1.png)
-![Captura de Pantalla 2](screenshots/screenshot2.png)
+![EAT_ALARM](https://github.com/Paolaafb22/ProyectoAlarmaMisoUXWeb/assets/98714523/32abf425-8b5e-44bd-b5d7-6488c9645f07)
 
 ## Tecnologías Utilizadas
 
