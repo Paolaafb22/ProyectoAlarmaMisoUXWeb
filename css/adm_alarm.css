@@ -289,7 +289,7 @@ border-style:hidden;
 outline:none;
 top:228px;
 left:690px;
-color:#8f9098;
+color:#000000;
 text-align:left;
 vertical-align:text-top;
 font-size:20px;
@@ -303,7 +303,6 @@ outline:none;
 {
   background-color: transparent;
   height:17px;
-  width:690px;
   border-radius:16px;
   padding:16px;
   display:flex;
@@ -316,7 +315,7 @@ outline:none;
   border-style:hidden;
   outline:none;
   top:235px;
-  left:540px;
+  left:520px;
   text-align:left;
   vertical-align:text-top;
   font-size:20px;
@@ -324,7 +323,7 @@ outline:none;
   line-height:auto;
   border-style:hidden;
   outline:none;
-  width:79px;
+  width:200px;
   }
 
   .horizontalcard_correo
@@ -359,7 +358,7 @@ outline:none;
 {
   background-color: transparent;
   height:17px;
-  width:690px;
+  width:200px;
   border-radius:16px;
   padding:16px;
   display:flex;
@@ -372,7 +371,7 @@ outline:none;
   border-style:hidden;
   outline:none;
   top:305px;
-  left:540px;
+  left:520px;
   text-align:left;
   vertical-align:text-top;
   font-size:20px;
@@ -380,7 +379,6 @@ outline:none;
   line-height:auto;
   border-style:hidden;
   outline:none;
-  width:79px;
   }
 
   .horizontalcard_UserName
@@ -415,7 +413,7 @@ outline:none;
 {
   background-color: transparent;
   height:17px;
-  width:690px;
+  width:200px;
   border-radius:16px;
   padding:16px;
   display:flex;
@@ -428,7 +426,7 @@ outline:none;
   border-style:hidden;
   outline:none;
   top:375px;
-  left:540px;
+  left:520px;
   text-align:left;
   vertical-align:text-top;
   font-size:20px;
@@ -436,7 +434,6 @@ outline:none;
   line-height:auto;
   border-style:hidden;
   outline:none;
-  width:79px;
   }
 
   .horizontalcard_Password
@@ -471,7 +468,6 @@ outline:none;
 {
   background-color: transparent;
   height:17px;
-  width:690px;
   border-radius:16px;
   padding:16px;
   display:flex;
@@ -484,7 +480,7 @@ outline:none;
   border-style:hidden;
   outline:none;
   top:445px;
-  left:540px;
+  left:520px;
   text-align:left;
   vertical-align:text-top;
   font-size:20px;
@@ -492,7 +488,7 @@ outline:none;
   line-height:auto;
   border-style:hidden;
   outline:none;
-  width:79px;
+  width:200px;
   }
 
   .horizontalcard_Date
@@ -527,7 +523,7 @@ outline:none;
 {
   background-color: transparent;
   height:17px;
-  width:690px;
+  width:200px;
   border-radius:16px;
   padding:16px;
   display:flex;
@@ -540,7 +536,7 @@ outline:none;
   border-style:hidden;
   outline:none;
   top:515px;
-  left:540px;
+  left:520px;
   text-align:left;
   vertical-align:text-top;
   font-size:20px;
@@ -548,7 +544,6 @@ outline:none;
   line-height:auto;
   border-style:hidden;
   outline:none;
-  width:147px;
   }
 
   .butonback
@@ -590,4 +585,28 @@ align-items:center;
 cursor: pointer; 
 }
 
+.buttonCancel
+{
+  color:#ffffff;
+  background-color:#006ffd;
+text-align:left;
+vertical-align:text-top;
+font-size:20px;
+font-family:Inter;
+align-self:flex-start;
+left:640px;
+top:430px;
+position:relative;
+line-height:auto;
+border-style:hidden;
+border-radius:12px;
+outline:none;
+width:78px;
+display:flex;
+height:52px;
+width:113px;
+justify-content:center;
+align-items:center;
+cursor: pointer; 
+}
 
