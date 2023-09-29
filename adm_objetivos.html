@@ -20,7 +20,7 @@
     <button type="button" class='icon-Edit-one' onclick="window.location.href='Update_alarm.html'">
     <img src="images/btn_Edit.png" alt="Editar">
     </button>
-    <button type="button" class='icon-delete-one' onclick="window.location.href='Delete_alarm.html'">
+    <button type="button" class='icon-delete-one'  onclick="mostrarConfirmacion()">
     <img src="images/btn_delete.png" alt="delete">
     </button>
     
@@ -40,10 +40,10 @@
 
     <script>
         function mostrarConfirmacion() {
-            var confirmacion = confirm("¿Está seguro que desea eliminar el usuario?");
+            var confirmacion = confirm("¿Está seguro que desea eliminar objetivo?");
             if (confirmacion) {
                 // Redirigir a "prueba.html" si se hace clic en "Aceptar"
-                window.location.href = 'Eliminar_alarma.html';
+                window.location.href = 'Delete_alarm.html';
             }
         }
         function mostrarAdvertencia() {
