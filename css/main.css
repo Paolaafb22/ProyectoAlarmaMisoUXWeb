@@ -4,87 +4,6 @@
 body {
   font-size: 14px;
 }
-.v330_565 {
-  width: 100%;
-  height: 768px;
-  background: rgb(169, 14, 199);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.name {
-  color: #020202;
-}
-.name {
-  color: #020202;
-}
-.v330_568 {
-  width: 100%;
-  height: 148px;
-  background: rgba(0,111,253,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-}
-.v330_569 {
-  width: 194px;
-  color: rgb(110, 8, 8);
-  position: absolute;
-  top: 74px;
-  left: 141px;
-  font-family: IBM Plex Sans;
-  font-weight: SemiBold;
-  font-size: 36px;
-  opacity: 1;
-  text-align: left;
-}
-.name {
-  color: #060606;
-}
-.name {
-  color: #9d0b0b;
-}
-.name {
-  color: #220505;
-}
-.name {
-  color: #db0b0b;
-}
-.name {
-  color: #810606;
-}
-.name {
-  color: #810606;
-}
-.name {
-  color: #810606;
-}
-.name {
-  color: #810606;
-}
-.name {
-  color: #810606;
-}
-.name {
-  color: #810606;
-}
-.name {
-  color: #810606;
-}
-
-.administraralarma-leidybeltrán
-{
-background-color:#ffffff;
-height:768px;
-width:1366px;
-padding:0px;
-position:absolute;
-}
 .horizontalcard
 {
 background-color:#e0e7fb;
@@ -105,36 +24,14 @@ left:500px;/*482px;*/
 top:179px;
 }
 .rectangle1
-{/*
-  width: 100%;
-  height: 148px;
-  background: rgba(0,111,253,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;*/
+{
   background-color:#006ffd;
-height:148px;
-width:1500px;
-filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
-border:1px solid #006ffd;
+  height:148px;
+  width:1500px;
+  filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+  border:1px solid #006ffd;
 
 }
-
-.v330_568 {
-  width: 100%;
-  height: 148px;
-  background: rgba(0,111,253,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-}
-
 .eatalarm
 {
 color:#e0e7fb;
@@ -236,19 +133,19 @@ cursor: pointer;
 }
 
 .icon-Edit-one {
-    height: 27px;
-    width: 30px;
-    padding: 0;
-    border: none;
-    outline: none;
-    left: 1250px;
-    top: 255px;
-    position: absolute;
-    background-color: transparent;
-    cursor: pointer;
+height: 27px;
+width: 30px;
+padding: 0;
+border: none;
+outline: none;
+left: 1250px;
+top: 255px;
+position: absolute;
+background-color: transparent;
+cursor: pointer;
 }
 
-.horizontalcard3/*Contiene los botones CRUD*/
+.horizontalcard3
 {
 background-color:#e0e7fb;
 height:417px;
@@ -352,7 +249,7 @@ color:#ffffff;
   font-family: Inter;
   align-self: center;
   left: 160px;
-  top: 380px; /* Alinea el elemento con el mismo valor 'top' que el anterior */
+  top: 380px; 
   position: absolute;
   line-height: none;
   border-style: hidden;
@@ -360,7 +257,6 @@ color:#ffffff;
   width: 167px;
   display: flex;
 }
-/*******************************/
 .content_text
 {
 height:17px;
@@ -379,7 +275,7 @@ gap:4px;
 {
 background-color:#c1d0f8;
 height:25px;
-width:506px;/*690px;*/
+width:506px;
 border-radius:16px;
 padding:16px;
 display:flex;
@@ -435,7 +331,7 @@ outline:none;
   {
   background-color:#c1d0f8;
   height:25px;
-  width:506px;/*690px;*/
+  width:506px;
   border-radius:16px;
   padding:16px;
   display:flex;
@@ -491,7 +387,7 @@ outline:none;
   {
   background-color:#c1d0f8;
   height:25px;
-  width:506px;/*690px;*/
+  width:506px;
   border-radius:16px;
   padding:16px;
   display:flex;
@@ -547,7 +443,7 @@ outline:none;
   {
   background-color:#c1d0f8;
   height:25px;
-  width:506px;/*690px;*/
+  width:506px;
   border-radius:16px;
   padding:16px;
   display:flex;
@@ -603,7 +499,7 @@ outline:none;
   {
   background-color:#c1d0f8;
   height:25px;
-  width:506px;/*690px;*/
+  width:506px;
   border-radius:16px;
   padding:16px;
   display:flex;
@@ -669,6 +565,29 @@ outline:none;
   cursor: pointer;
 }
 
-
+.buttonAccep
+{
+  color:#ffffff;
+  background-color:#006ffd;
+text-align:left;
+vertical-align:text-top;
+font-size:20px;
+font-family:Inter;
+align-self:flex-start;
+left:500px;
+top:480px;
+position:relative;
+line-height:auto;
+border-style:hidden;
+border-radius:12px;
+outline:none;
+width:78px;
+display:flex;
+height:52px;
+width:113px;
+justify-content:center;
+align-items:center;
+cursor: pointer; 
+}
 
 
