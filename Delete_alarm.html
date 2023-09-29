@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet" />
+    <link href="./css/adm_alarm.css" rel="stylesheet" />
+    <title>eat Alarm</title>
+    
+</head>
+<body>
+    <div id='rectangle1' class='rectangle1'></div>
+    <span class="eatalarm">EAT ALARM</span>
+
+    <div id='horizontalcard' class='horizontalcard'> </div>
+    
+    <div id='horizontalcard3' class='horizontalcard3'></div>
+    <button type="button" id='buttonprimary' class='btn_consultar' onclick="mostrarAdvertencia()">
+        Consultar Usuario
+    </button>
+    
+    <button type="button"  id='buttonprimary2' class='btn_adm' onclick="mostrarAdvertencia()" >
+        Administrar Alarma
+    </button>
+    <button type="button" id='buttonprimary3' class='btn_congif' onclick="mostrarAdvertencia()">
+        Configuración de Objetivos
+    </button>
+
+    <script>
+        function mostrarConfirmacion() {
+            var confirmacion = confirm("¿Está seguro que desea eliminar el usuario?");
+            if (confirmacion) {
+                // Redirigir a "prueba.html" si se hace clic en "Aceptar"
+                window.location.href = 'Eliminar_alarma.html';
+            }
+        }
+        function mostrarAdvertencia() {
+            var confirmacion = confirm("Acción no permitida");
+            
+        }
+    </script>
+</body>
+</html>

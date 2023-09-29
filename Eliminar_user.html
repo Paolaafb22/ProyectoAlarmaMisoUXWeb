@@ -1,0 +1,31 @@
+<!DOCTYPE html><html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet" />
+        <link href="./css/main.css" rel="stylesheet" />
+        <title> eat Alarm</title>
+    </head>
+    <body>
+        <div id='rectangle1' class='rectangle1'></div>
+        <span class="eatalarm">EAT ALARM</span>
+
+        <div id='horizontalcard' class='horizontalcard'> </div>
+        
+        <div id='horizontalcard3' class='horizontalcard3'></div>
+        <button type="button" id='buttonprimary' class='btn_consultar' onclick="mostrarMensaje()">
+            Consultar Usuario
+        </button>
+        <button type="button"  id='buttonprimary2' class='btn_adm'>
+            Administrar Alarma
+        </button>
+        <button type="button" id='buttonprimary3' class='btn_congif'>
+            Configuración de Objetivos
+        </button>
+
+        <script>
+            function mostrarMensaje() {
+                var confirmacion = confirm("No hay registros");
+                
+            }
+        </script>
+    </body>
+</html>

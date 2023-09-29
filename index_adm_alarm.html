@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet" />
+    <link href="./css/adm_alarm.css" rel="stylesheet" />
+    <title>eat Alarm</title>
+    
+</head>
+<body>
+    <div id='rectangle1' class='rectangle1'></div>
+    <span class="eatalarm">EAT ALARM</span>
+
+    <div id='horizontalcard' class='horizontalcard'> </div>
+    <div id='horizontalcard2' class='horizontalcard2'>
+    <div id='content' class='content'>
+    <div id='title' class='title'>
+        Desayuno</div>
+    </div>
+    </div>
+    <button type="button" class='icon-Edit-one' onclick="mostrarAdvertencia()">
+    <img src="images/btn_Edit.png" alt="Editar">
+    </button>
+    <button type="button" class='icon-delete-one' onclick="mostrarConfirmacion()">
+    <img src="images/btn_delete.png" alt="delete">
+    </button>
+    
+    <!-- Resto del contenido de tu página -->
+
+    <div id='horizontalcard3' class='horizontalcard3'></div>
+    <button type="button" id='buttonprimary' class='btn_consultar' onclick="mostrarConfirmacion()">
+        Consultar Usuario
+    </button>
+    
+    <button type="button"  id='buttonprimary2' class='btn_adm'>
+        Administrar Alarma
+    </button>
+    <button type="button" id='buttonprimary3' class='btn_congif'>
+        Configuración de Objetivos
+    </button>
+
+    <script>
+        function mostrarConfirmacion() {
+            var confirmacion = confirm("¿Está seguro que desea eliminar alarma?");
+            if (confirmacion) {
+                // Redirigir a "prueba.html" si se hace clic en "Aceptar"
+                window.location.href = 'Delete_alarm.html';
+            }
+        }
+        function mostrarAdvertencia() {
+            var confirmacion = confirm("Acción no permitida");
+            
+        }
+    </script>
+</body>
+</html>
